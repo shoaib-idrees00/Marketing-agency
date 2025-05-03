@@ -921,10 +921,10 @@ html, body
     color: #444;
 }
 
-.our-services-in-basic-plan
+/* .our-services-in-basic-plan
 {
 
-}
+} */
 
 .r-a
 {
@@ -985,7 +985,23 @@ html, body
     margin: 0;
     padding: 0;
 }
+.price-icon
+{
+    padding-right: 15px;
+}
 
+.plans-button
+{
+    background-color: #94c11f;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.plans-button a
+{
+    text-decoration: none;
+    color: white;
+}
 
 
 
