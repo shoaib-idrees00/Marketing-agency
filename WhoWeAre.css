@@ -61,19 +61,216 @@
     width: 100%;
     height: 600px;
     margin-top: 70px;
-    background-color: wheat;
+    /* background-color: wheat; */
+}
+
+.about-img-box {
+    width: 100%;
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .about-company-images {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    width: 13%;
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("royal-bathrooms-1024x329.jpg");
 }
 
-.company-image-box {
-    width: 20%;
+.compnay-image2 {
+    background-image: url("alectrofag.png");
+}
+
+.compnay-image3 {
+    background-image: url("mars.png");
+}
+
+.compnay-image4 {
+    background-image: url("ccjk.png");
+}
+
+.compnay-image5 {
+    background-image: url("vapegala.png");
+}
+
+.center-content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: skyblue; */
+}
+
+.about-center-box {
+    width: 60%;
+    height: 330px;
+    font-size: 28px;
+    line-height: 1.2;
+    padding: 14px 4px;
+    font-weight: bold;
+    /* background-color: orange; */
+}
+
+/* values section */
+.our-values {
+    width: 100%;
+    height: 1000px;
+    margin-top: 400px;
+    background-color: rgb(218, 246, 253);
+}
+
+.value-img {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.our-values-container {
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.our-values-container h1 {
+    text-align: center;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 50, 109);
+}
+
+.our-values-cards {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    /* background-color: purple; */
+    justify-content: space-evenly;
+}
+
+.value-card-box {
+    width: 23%;
+    height: 340px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.value-box-icon {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    color: rgb(39, 143, 1);
+    font-size: 30px;
+    padding: 17px ;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(231, 227, 227);
+}
+
+.value-box-content {
+    width: 80%;
     height: 200px;
-    background-color: purple;
+    margin: 20px auto;
+}
+
+.value-box-content h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.client-rating {
+    width: 90%;
+    gap: 16px;
+    display: flex;
+    height: 560px;
+    margin-top: 30px;
+    margin-left: 64px;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    /* margin-top: 20px auto; */
+    background-color: rgb(1, 50, 109);
+}
+
+.client-rating-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    height: 400px;
+}
+
+.client-rating-content p:first-child {
+    width: 70%;
+    margin-bottom: 26px;
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.client-rating-content p:nth-child(2) {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.client-rating-img {
+    width: 60%;
+    height: 560px;
+    position: relative;
+    /* background-color: orange; */
+}
+
+.rating-content {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 34px;
+    background-color: white;
+}
+
+.rating-content-left {
+    height: 70px;
+    width: 50%;
+    text-align: center;
+    /* background-color: grey; */
+}
+
+.rating-content-left i {
+    padding-top: 20px;
+    color: rgb(255, 157, 0);
+}
+
+.rating-content-left h4 {
+    padding-top: 10px;
+}
+
+.rating-content-right {
+    height: 70px;
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.rating-content-right a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rating-content-right a:hover {
+    text-decoration: underline black;
 }

@@ -1,0 +1,21 @@
+/* button animations */
+.header-button button {
+    border: none;
+    color: white;
+    padding: 14px 38px;
+    border-radius: 14px;
+    background-color: rgb(138, 169, 3);
+    animation: buttonAnimation 2s infinite;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Scale up */
+    }
+    100% {
+        transform: scale(1); /* Back to original size */
+    }
+}
