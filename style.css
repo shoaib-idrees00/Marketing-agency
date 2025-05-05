@@ -316,10 +316,45 @@ html, body
 {
     height: 200px;
     width: 100%;
-    background-color: yellow;
 }
 
+.img-bottom-text
+{
+    color: #94c11f;
+    padding: 30px;
+    font-family:sans-serif;
+}
+.img-bottom-heading
+{
+    color: #004d4d;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-family: sans-serif;
+}
+.img-bottom-button
+{
+    background-color: #94c11f;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.img-bottom-button a
+{
+    text-decoration: none;
+    color: white;
+}
+.img-bottom-button:hover
+{
+    
+    color: white;
+    background-color: #7BA526;
+    transition: 2s;
+    text-underline-offset: 5px;
 
+}
 
 .boxes
 {
@@ -513,6 +548,7 @@ html, body
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .side-bar li
 {
