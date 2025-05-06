@@ -1,0 +1,62 @@
+
+.about-top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 600px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(1, 73, 81);
+    padding: 40px 20px;
+    color: white;
+    z-index: 1;
+}
+
+.about-top-left,
+.about-top-right {
+    flex: 1 1 45%;
+    min-width: 300px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.about-top-heading {
+    margin-top: 20px;
+}
+
+.about-top-left h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.about-top-para {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.about-top-btn {
+    margin-top: 20px;
+}
+
+.about-top-btn button {
+    border: none;
+    color: white;
+    padding: 14px 38px;
+    border-radius: 14px;
+    background-color: rgb(138, 169, 3);
+    cursor: pointer;
+}
+
+.about-top-right img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 24px;
+}
+
+/* About center section */
+.about-center-section {
+    width: 100%;
+    min-height: 600px;
+    margin-top: 70px;
+    padding: 40px 20px;
+}
