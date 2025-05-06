@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            display: flex;
+            height: 90vh;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(14, 13, 13);
+        }
+
+        .box {
+            /* width: 200px; */
+            /* height: 200px; */
+            padding: 16px 30px;
+            color: white;
+            border: none;
+            font-size: 20px;
+            border-radius: 18px;
+            background-color: orangered;
+            transition-property: padding, background-color;
+            transition-duration: 0.5s;
+            cursor: pointer;
+            transition-timing-function: ease-in-out;
+        }
+
+        .box:hover {
+            padding: 16px 50px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <button class="box">Click Me</button>
+
+</body>
+</html>
