@@ -1,0 +1,257 @@
+*{
+    font-family: sans-serif;
+}
+
+.about-top-outside-div
+{
+    width: 100%;
+    height: 750px;
+    background-color:#ddd;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.about-top {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(1, 73, 81);
+}
+
+.about-top-left {
+    width: 40%;
+    height: 500px;
+    color: white;
+    /* background-color: indianred; */
+}
+
+.about-top-heading {
+    margin-top: 20px;
+}
+
+.about-top-left h1 {
+    font-size: 40px;
+}
+
+.about-top-para {
+    width: 80%;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.about-top-btn {
+    padding: 10px 20px;
+}
+
+.about-top-btn button {
+    border: none;
+    color: white;
+    padding: 14px 38px;
+    border-radius: 14px;
+    background-color:#7BA526;
+    
+}
+.about-top-btn button:hover
+{
+    
+    background-color:#5d7430;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: white;
+}
+
+.about-top-right {
+    width: 40%;
+    height: 500px;
+    text-align: center;
+    /* background-color: orangered; */
+}
+
+.about-top-right img {
+    width: 500px;
+    border-radius: 24px;
+}
+.sub-div2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+/* About center section */
+.services-main-section {
+    width: 100%;
+    height: 600px;
+    margin-top: 70px;
+    /* background-color: wheat; */
+}
+.services-main-section h2
+{
+    display: flex;
+    justify-content: center;
+}
+.about-img-box {
+    width: 100%;
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-company-images {
+    width: 13%;
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("royal-bathrooms-1024x329.jpg");
+}
+
+.compnay-image2 {
+    background-image: url("alectrofag.png");
+}
+
+.compnay-image3 {
+    background-image: url("mars.png");
+}
+
+.compnay-image4 {
+    background-image: url("ccjk.png");
+}
+
+.compnay-image5 {
+    background-image: url("vapegala.png");
+}
+
+/* SERVICES */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 320px;
+    position: relative;
+    background-color: #b7e4c7;
+    justify-content: space-evenly;
+    background: linear-gradient( #b7e4c7,white);
+}
+
+.services-img {
+    bottom: 80%;
+    position: absolute;
+}
+
+/* .img-bottom-content {
+    width: 100%;
+    background-color: yellow;
+} */
+
+
+.img-bottom-content
+{
+    height: 200px;
+    width: 100%;
+}
+
+.img-bottom-text
+{
+    color: #94c11f;
+    padding: 30px;
+    font-family:sans-serif;
+}
+.img-bottom-heading
+{
+    color: #004d4d;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.img-bottom-button
+{
+    background-color: #94c11f;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 18%;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.img-bottom-button a
+{
+    text-decoration: none;
+    color: white;
+}
+.img-bottom-button:hover
+{
+    
+    color: white;
+    background-color: #7BA526;
+    transition: 2s;
+    text-underline-offset: 5px;
+
+}
+
+
+
+
+.boxes
+{
+    height: 400px;
+    width: 23%;
+    background-color:white ;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7fb;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    color: #7BA526;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.box-content a {
+    text-decoration: underline;
+    text-decoration-color: #7BA526;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+    text-underline-offset: 7px;
+}
+
+.box-content a:hover {
+    color: #7BA526;    
+}
+
+.search-engine-optimization
+{
+    width: 100%;
+    height: 30%;
+    padding: 40px;
+    font-size: 1.8rem;
+    color: #004d4d;
+}
+
