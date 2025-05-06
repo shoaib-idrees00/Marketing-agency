@@ -5,6 +5,7 @@
 }
 
 footer {
+    margin-top: 50px;
     display: flex;
     /* height: 2000px; */
     flex-direction: column;
